@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif
+}
+body{
+    background-color: blueviolet;
+    background-size: cover; 
+}
+.row{
+    display: flex;
+}
+.column {
+    flex:1;
+    /* position: relative; */
+}
+img
+{
+    height: 100%;
+    width: 100%;
+}
+.center{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.Registration-form h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px ;
+}
+.Registration-form p{
+    font-size:20px;
+    margin: 15px;
+}
+.Registration-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.Registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.background {
+    background-image: url('/image/girl.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-position: center;
+  }
+  .background p{
+    font-size: 40px;
+    width: 2em;
+    color:white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .login{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#3f5efb,#fc466b);
+    
+
+  }
+  .login form{
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.06);
+    box-shadow: 0 8px 32px 0 rgba(245, 245, 249, 0.37);
+    border-radius: 30px;
+  }
+  /* 
+  rem - root font size
+  em - element fontsize
+  px - pixels
+  % - % of the parent
+  vw - viewport width
+  vh - viewport height
+  */
