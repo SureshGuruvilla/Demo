@@ -60,6 +60,8 @@ img
     background-repeat: no-repeat ;
     background-size: cover ;
     background-position: center;
+    display: flex;
+    justify-content: center;
   }
   .background p{
     font-size: 40px;
